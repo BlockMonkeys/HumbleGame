@@ -1,0 +1,38 @@
+body{
+    background: url('./forest.jpg');
+}
+.screen{
+    display: flex;
+    justify-content: center;
+}
+td{
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    user-select: none;
+}
+.game_starter{
+    background: url('./forest.jpg');
+    width: 500px;
+    height: 100px;
+    font-size: 35px;
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+.score{
+    display: inline-block;
+    width: 400px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+}
